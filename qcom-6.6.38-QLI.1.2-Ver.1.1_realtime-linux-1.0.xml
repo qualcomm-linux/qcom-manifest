@@ -3,6 +3,6 @@
   <remote fetch="https://github.com/quic-yocto" name="github" review="github.com"/>
   <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
 
-  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="940c8aa51d1bf879638caede012c5c249bb7b12c" upstream="refs/heads/kirkstone"/>
+  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="e12252920b448e904729c0140763460e0e7a6e97" upstream="refs/heads/kirkstone"/>
   <include name="qcom-6.6.38-QLI.1.2-Ver.1.1.xml" />
 </manifest>
