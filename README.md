@@ -160,11 +160,11 @@ Optional layers:
 
 ## Flash the image
 
-To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70014-254/flash_images_unregistered.html)
+To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70015-254/flash_images.html)
 
 
 ## References
 
-If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/4.0.18/brief-yoctoprojectqs/index.html)
+If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/4.0.20/brief-yoctoprojectqs/index.html)
 
-The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/4.0.18/singleindex.html#welcome-to-the-yocto-project-documentation)
+The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/4.0.20/singleindex.html#welcome-to-the-yocto-project-documentation)
