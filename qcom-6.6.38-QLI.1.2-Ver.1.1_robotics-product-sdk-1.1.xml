@@ -5,11 +5,11 @@
   <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
 
   <project name="meta-ros" path="layers/meta-ros" remote="ros" revision="b4db6314bae1c78498158e267200a9c15a739cad" upstream="refs/heads/kirkstone"/>
-  <project name="meta-qcom-robotics" path="layers/meta-qcom-robotics" revision="1d6740856389798bc76c97d6faece97e962fcbb5" upstream="refs/heads/kirkstone"/>
+  <project name="meta-qcom-robotics" path="layers/meta-qcom-robotics" revision="775c052f297638dba484f2ebb4c4ac8c41dceb2a" upstream="refs/heads/kirkstone"/>
   <project name="meta-qcom-robotics-distro" path="layers/meta-qcom-robotics-distro" revision="0159590a3d0d9385d9ab51fa73233d21979d5cb2" upstream="refs/heads/kirkstone">
     <linkfile dest="setup-robotics-environment" src="set_bb_env.sh"/>
   </project>
-  <project name="meta-qcom-robotics-sdk" path="layers/meta-qcom-robotics-sdk" revision="1f89f64a14833e5512cb9c891f118d222d709232" upstream="refs/heads/kirkstone">
+  <project name="meta-qcom-robotics-sdk" path="layers/meta-qcom-robotics-sdk" revision="f20bb896f454ddef4dbe08950ab66624a2910cd0" upstream="refs/heads/kirkstone">
     <copyfile dest="qirp-build" src="scripts/qirp-build" />
   </project>
   <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="2cf6d25c82e004651c36501260af38ee554125c0" upstream="refs/heads/kirkstone"/>
