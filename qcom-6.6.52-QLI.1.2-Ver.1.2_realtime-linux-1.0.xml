@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/quic-yocto" name="github" review="github.com"/>
+  <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
+
+  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="e12252920b448e904729c0140763460e0e7a6e97" upstream="refs/heads/kirkstone"/>
+  <include name="qcom-6.6.52-QLI.1.2-Ver.1.2.xml" />
+</manifest>
