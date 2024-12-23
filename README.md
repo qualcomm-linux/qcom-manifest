@@ -98,7 +98,7 @@ git config --global color.ui auto
 ```bash
 mkdir [release]
 cd [release]
-repo init -u https://github.com/quic-yocto/qcom-manifest -b [branch name] -m [release manifest]
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b [branch name] -m [release manifest]
 repo sync
 ```
 
@@ -109,7 +109,7 @@ Each branch will have detailed READMEs describing exact syntax.
 To download the `qcom-6.6.28-QLI.1.1-Ver.1.1` release
 
 ```bash
-repo init -u https://github.com/quic-yocto/qcom-manifest -b qcom-linux-kirkstone -m qcom-6.6.28-QLI.1.1-Ver.1.1.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-kirkstone -m qcom-6.6.28-QLI.1.1-Ver.1.1.xml
 repo sync
 ```
 
@@ -117,15 +117,15 @@ repo sync
 
 MACHINE=[machine] DISTRO=qcom-[backend] source setup-environment
 
-[machine]   defaults to `qcm6490`
+[machine]   Target hardware
 
 [backend]   Graphics backend type
 - qcom-wayland     meta-qcom-distro
 
-Example for setup Wayland, machine qcm6490:
+Example for setup Wayland, machine qcs6490-rb3gen2-vision-kit:
 
 ```bash
-MACHINE=qcm6490 DISTRO=qcom-wayland source setup-environment
+MACHINE=qcs6490-rb3gen2-vision-kit DISTRO=qcom-wayland source setup-environment
 ```
 **Note:** [Source to initialize bitbake environment](https://github.com/quic-yocto/meta-qcom-distro/blob/kirkstone/set_bb_env.sh)
 
@@ -165,6 +165,6 @@ To flash the generated build, see the [Flash software](https://docs.qualcomm.com
 
 ## References
 
-If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/4.0.20/brief-yoctoprojectqs/index.html)
+If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/4.0.22/brief-yoctoprojectqs/index.html)
 
-The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/4.0.20/singleindex.html#welcome-to-the-yocto-project-documentation)
+The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/4.0.22/singleindex.html#welcome-to-the-yocto-project-documentation)
