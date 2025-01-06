@@ -160,7 +160,7 @@ Optional layers:
 
 ## Flash the image
 
-To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70015-254/flash_images.html)
+To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70017-254/flash_images.html)
 
 
 ## References
