@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/quic-yocto" name="github" review="github.com"/>
+  <remote fetch="https://git.yoctoproject.org" name="yocto" review="git.yoctoproject.org"/>
+  <remote fetch="https://github.com/openembedded" name="oe" review="github.com"/>
+  <remote fetch="https://github.com/Linaro" name="Linaro" review="github.com"/>
+  <remote fetch="https://github.com/meta-rust" name="rust" review="github.com"/>
+  <remote fetch="https://github.com/uptane" name="updater" review="github.com"/>
+  <default remote="github" revision="refs/heads/kirkstone" sync-j="8"/>
+
+  <project name="meta-qcom" path="layers/meta-qcom" remote="Linaro" revision="a78e99b89ad483cc8b643165fd3bd4428b3ec1cc" upstream="refs/heads/kirkstone"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="4ad41baed6236d499804cbfc4f174042d84fce97" upstream="refs/heads/kirkstone"/>
+  <project name="poky" path="layers/poky" remote="yocto" revision="7e87dc422d972e0dc98372318fcdc63a76347d16" upstream="refs/heads/kirkstone"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="353078bc06c8b471736daab6ed193e30d533d1f1" upstream="refs/heads/kirkstone"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="02a6c00d9370992a54296633de26a13a9a08ca2a" upstream="refs/heads/kirkstone"/>
+  <project name="meta-selinux" path="layers/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd" upstream="refs/heads/kirkstone"/>
+  <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="ec20e19319f9eb89ceadc04923cc5bc75e865692" upstream="refs/heads/kirkstone"/>
+  <project name="meta-rust" path="layers/meta-rust" remote="rust" revision="9611b42d73c7546c3d845da380943a0a4f4205f0" upstream="refs/heads/master"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="3d57c37509fef259c5a5c150b88466ff367e305f" upstream="refs/heads/kirkstone"/>
+
+  <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="5f0b6d1b0c0a88d69bfccd7bfbcd23c91b049c18" upstream="refs/heads/kirkstone"/>
+  <project name="meta-qcom-distro" path="layers/meta-qcom-distro" revision="8ce214ddba205581c3b6df359e1c26431dfb3235" upstream="refs/heads/kirkstone">
+    <linkfile dest="setup-environment" src="set_bb_env.sh"/>
+  </project>
+</manifest>
