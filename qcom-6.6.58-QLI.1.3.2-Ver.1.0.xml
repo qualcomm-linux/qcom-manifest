@@ -5,8 +5,7 @@
   <remote fetch="https://github.com/openembedded" name="oe" review="github.com"/>
   <remote fetch="https://github.com/Linaro" name="Linaro" review="github.com"/>
   <remote fetch="https://github.com/uptane" name="updater" review="github.com"/>
-  <remote fetch="git://git-android.quicinc.com/" name="quic" review="review-android.quicinc.com"/>
-  <default remote="quic" revision="refs/heads/scarthgap_rel" sync-j="8"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
 
   <project name="meta-qcom" path="layers/meta-qcom" remote="Linaro" revision="ec80a36bce11d8182b4bb2a6fa0359adfeccde0a" upstream="refs/heads/scarthgap"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="c04b722e9b38631e78dc6ca0e03d571e23ed28a2" upstream="refs/heads/scarthgap"/>
@@ -17,8 +16,8 @@
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="fa550d14caebb16fede2a428ac0db66f2d0f893b" upstream="refs/heads/scarthgap"/>
   <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="29f2042fb04f42eb1b56564965fb4460c8b7ffc7" upstream="refs/heads/master"/>
 
-  <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="948d466848e793bfcff8aa5adffc96493c09ea92" upstream="refs/heads/scarthgap_rel"/>
-  <project name="meta-qcom-distro" path="layers/meta-qcom-distro" revision="5102b874d749667297bf0bd6144edbcb29db1168" upstream="refs/heads/scarthgap_rel">
+  <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="948d466848e793bfcff8aa5adffc96493c09ea92" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-distro" path="layers/meta-qcom-distro" revision="5102b874d749667297bf0bd6144edbcb29db1168" upstream="refs/heads/scarthgap">
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
 </manifest>
