@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/quic-yocto" name="github" review="github.com"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
+
+  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="d80fbd30c2cf2a2c926acdc292dad28643bf4d14" upstream="refs/heads/scarthgap"/>
+  <include name="qcom-6.6.58-QLI.1.3.2-Ver.1.0.xml" />
+</manifest>
