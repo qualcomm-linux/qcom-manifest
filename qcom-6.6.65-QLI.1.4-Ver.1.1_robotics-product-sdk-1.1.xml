@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
+  <remote fetch="https://github.com/ros" name="ros" review="github.com"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
+
+  <project name="meta-ros" path="layers/meta-ros" remote="ros" revision="c560699e810e60a9526f4226c2c23f8d877280c8" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-robotics" path="layers/meta-qcom-robotics" revision="a2bb063fee9c0fe89df793fb8d07304de7b81c29" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-robotics-distro" path="layers/meta-qcom-robotics-distro" revision="85dd0a5c40ba2d4a8cbdb59e32aaacd8c04a6dfe" upstream="refs/heads/scarthgap">
+    <linkfile dest="setup-robotics-environment" src="set_bb_env.sh"/>
+  </project>
+  <project name="meta-qcom-robotics-sdk" path="layers/meta-qcom-robotics-sdk" revision="1a5801608604fa4c2798325a9cf21f71c9e78176" upstream="refs/heads/scarthgap">
+    <copyfile dest="qirp-build" src="scripts/qirp-build" />
+  </project>
+  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="124df5c0696205520a55acc65195f993bc5aee11" upstream="refs/heads/scarthgap"/>
+  <include name="qcom-6.6.65-QLI.1.4-Ver.1.1.xml" />
+</manifest>
