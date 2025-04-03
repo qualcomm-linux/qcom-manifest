@@ -16,7 +16,7 @@
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="fa550d14caebb16fede2a428ac0db66f2d0f893b" upstream="refs/heads/scarthgap"/>
   <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="652aae8b9df359bd6bd5a8f3d178196996570089" upstream="refs/heads/scarthgap"/>
 
-  <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="09d856e7961ef5de0bb2237bdd0ff702bfe1758e" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="6133353951fb7deac29b5419a329f2806c591dd3" upstream="refs/heads/scarthgap"/>
   <project name="meta-qcom-distro" path="layers/meta-qcom-distro" revision="13eb357943de721dce7bf51620c7e3f6107a4091" upstream="refs/heads/scarthgap">
     <linkfile dest="setup-environment" src="set_bb_env.sh"/>
   </project>
