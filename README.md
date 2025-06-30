@@ -106,10 +106,10 @@ Each branch will have detailed READMEs describing exact syntax.
 
 **Example:**
 
-To download the `qcom-6.6.58-QLI.1.3.1-Ver.1.0` release
+To download the `qcom-6.6.90-QLI.1.5-Ver.1.1` release
 
 ```bash
-repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-scarthgap -m qcom-6.6.58-QLI.1.3.1-Ver.1.0.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-scarthgap -m qcom-6.6.90-QLI.1.5-Ver.1.1.xml
 repo sync
 ```
 
@@ -163,6 +163,6 @@ To flash the generated build, see the [Flash software](https://docs.qualcomm.com
 
 ## References
 
-If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/5.0.6/brief-yoctoprojectqs/index.html)
+If you are new to the Yocto project, you may try your first build as documented in the Yocto project at [Standard Yocto environment](https://docs.yoctoproject.org/5.0.9/brief-yoctoprojectqs/index.html)
 
-The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/5.0.6/singleindex.html#welcome-to-the-yocto-project-documentation)
+The complete index of Yocto project docs is available at [Yocto project docs](https://docs.yoctoproject.org/5.0.9/singleindex.html#welcome-to-the-yocto-project-documentation)
