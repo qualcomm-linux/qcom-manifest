@@ -154,7 +154,7 @@ Mandatory layers:
 1. [Qualcomm Hardware Enablement](https://github.com/qualcomm-linux/meta-qcom-hwe/blob/scarthgap/README.md)
 
 Optional layers:
-1. [Qualcomm Intelligent Multimedia Product SDK](https://github.com/qualcomm-linux/meta-qcom-qim-product-sdk/blob/scarthgap/README.md)
+1. [Qualcomm Intelligent Multimedia (QIM) SDK](https://github.com/qualcomm-linux/meta-qcom-qim-product-sdk/blob/scarthgap/README.md)
 
 ## Flash the image
 
