@@ -14,7 +14,7 @@
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="94ee980814d7c5824449b2745a934664adbf3007" upstream="refs/heads/scarthgap"/>
   <project name="meta-selinux" path="layers/meta-selinux" remote="yocto" revision="4fbbcab2cb452c9430cba780e7cb11b2165c997a" upstream="refs/heads/scarthgap"/>
   <project name="meta-updater" path="layers/meta-updater" remote="updater" revision="92f0e7aa93966e184beb1ccdfea6c8fdb27d2b18" upstream="refs/heads/scarthgap"/>
-  <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="c382865206fe925a02a1cdbdd856e16310bc9dbc" upstream="refs/heads/scarthgap"/>
+  <project name="meta-tensorflow" path="layers/meta-tensorflow" remote="yocto" revision="eeee54cfa3c51c1fd99604a0d5f173096bdcf1da" upstream="refs/heads/scarthgap"/>
 
   <project name="meta-qcom-hwe" path="layers/meta-qcom-hwe" revision="a5fdd68fe7111e9666d39e42980d270ca9f83bcf" upstream="refs/heads/scarthgap"/>
   <project name="meta-qcom-distro" path="layers/meta-qcom-distro" revision="08cc4b0bcbe2c0b23d9f786e48a3a826a593bc18" upstream="refs/heads/scarthgap">
