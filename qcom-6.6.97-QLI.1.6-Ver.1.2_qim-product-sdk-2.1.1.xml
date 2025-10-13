@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
+
+  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="642a2182028c7c4761d9e98ce28a54edb70dc1cf" upstream="refs/heads/scarthgap"/>
+  <include name="qcom-6.6.97-QLI.1.6-Ver.1.2.xml" />
+</manifest>
