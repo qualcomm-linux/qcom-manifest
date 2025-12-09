@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
   <remote fetch="https://git.yoctoproject.org" name="yocto" review="git.yoctoproject.org"/>
   <remote fetch="https://github.com/openembedded" name="oe" review="github.com"/>
   <remote fetch="https://github.com/Linaro" name="Linaro" review="github.com"/>
   <remote fetch="https://github.com/uptane" name="updater" review="github.com"/>
-  <remote fetch="git://git-android.quicinc.com/" name="quic" review="review-android.quicinc.com"/>
-  <default remote="quic" revision="refs/heads/scarthgap_rel" sync-j="8"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
 
   <project name="meta-qcom" path="layers/meta-qcom" remote="Linaro" revision="ec80a36bce11d8182b4bb2a6fa0359adfeccde0a" upstream="refs/heads/scarthgap"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="15e18246dd0c0585cd1515a0be8ee5e2016d1329" upstream="refs/heads/scarthgap"/>
