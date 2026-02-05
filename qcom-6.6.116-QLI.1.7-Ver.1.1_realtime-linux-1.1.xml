@@ -3,6 +3,6 @@
   <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
   <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
 
-  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="4f83535ac48a45570e00024ae6562ffe7f0a5b8c" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="5cb8f2ef202af82b491554c54b0c2baa3ea9b100" upstream="refs/heads/scarthgap"/>
   <include name="qcom-6.6.116-QLI.1.7-Ver.1.1.xml" />
 </manifest>
