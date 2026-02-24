@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<manifest>
+  <default revision="master" sync-j="8" clone-depth="1" fetch="true"/>
+  <project name="openembedded/bitbake" path="bitbake" revision="1f8fa7c25e71cd0f230a2f6bfd9d5153c694da81" remote="github" upstream="refs/heads/master"/>
+  <project name="AudioReach/meta-audioreach" path="meta-audioreach" revision="e2d213083b6374a5cc285f86438878896693678b" remote="github" upstream="refs/heads/master"/>
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="e19775fba85e966d482ac7bee933754863e3acfe" remote="github" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom" path="meta-qcom" revision="e4003a8f1c5545610482af1ac60517c7a4352394" remote="github" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom-distro" path="meta-qcom-distro" revision="062201e74e5331b1e4053aa1f716f3077d7b2c6f" remote="github" upstream="refs/heads/main"/>
+  <project name="meta-security" path="meta-security" revision="9e6d962250aab6e5319215f15b0201ef233c46cd" remote="yocto" upstream="refs/heads/master"/>
+  <project name="meta-selinux" path="meta-selinux" revision="27758bca5ad8f74f387de5cc7c88e73ef2aed951" remote="yocto" upstream="refs/heads/master"/>
+  <project name="uptane/meta-updater" path="meta-updater" revision="8ef3734055e7ffbf34df557db68e41fe418662f7" remote="github" upstream="refs/heads/master"/>
+  <project name="git/meta-virtualization" path="meta-virtualization" revision="1be0a5e3170ee32073377033d3e1f2186b4f622f" remote="yocto" upstream="refs/heads/master"/>
+  <project name="meta-yocto" path="meta-yocto" revision="f3b63d0d6882af61020bd6f7150fae68a0322f63" remote="yocto" upstream="refs/heads/master"/>
+  <project name="openembedded/openembedded-core" path="oe-core" revision="b8e48562ba273051bcf8cbc62be742ef42a1e622" remote="github" upstream="refs/heads/master"/>
+  <project name="qualcomm-linux/meta-qcom-releases" path="meta-qcom-releases" revision="18285a961f28111703703ed7b2745223a283ba1c" remote="github" upstream="refs/heads/main" >
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <remote name="github" fetch="https://github.com/"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
+</manifest>
