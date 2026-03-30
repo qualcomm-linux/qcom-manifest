@@ -3,6 +3,6 @@
   <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
   <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
 
-  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="d53fd21a2858a558bdcdec68b8b69bbf485d3915" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="41794cd8d9ed1eef77eab26b80e35165f6707248" upstream="refs/heads/scarthgap"/>
   <include name="qcom-6.6.119-QLI.1.8-Ver.1.1.xml" />
 </manifest>
