@@ -12,6 +12,6 @@
   <project name="meta-qcom-robotics-sdk" path="layers/meta-qcom-robotics-sdk" revision="27d1fa01e116d01f54624db1a62822905aa24999" upstream="refs/heads/scarthgap">
     <copyfile dest="qirp-build" src="scripts/qirp-build" />
   </project>
-  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="d53fd21a2858a558bdcdec68b8b69bbf485d3915" upstream="refs/heads/scarthgap"/>
+  <project name="meta-qcom-qim-product-sdk" path="layers/meta-qcom-qim-product-sdk" revision="41794cd8d9ed1eef77eab26b80e35165f6707248" upstream="refs/heads/scarthgap"/>
   <include name="qcom-6.6.119-QLI.1.8-Ver.1.1.xml" />
 </manifest>
