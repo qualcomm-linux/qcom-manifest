@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/qualcomm-linux" name="github" review="github.com"/>
+  <default remote="github" revision="refs/heads/scarthgap" sync-j="8"/>
+
+  <project name="meta-qcom-realtime" path="layers/meta-qcom-realtime" revision="b872ff77b414ed68ba2601e31c2e426f01fee684" upstream="refs/heads/scarthgap"/>
+  <include name="qcom-6.6.136-QLI.1.9-Ver.1.1.xml" />
+</manifest>
+
