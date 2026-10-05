@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<manifest>
+  <default revision="master" sync-j="4" clone-depth="1" fetch="true"/>
+  <project name="openembedded/bitbake" path="bitbake" revision="0ad6c1c34a5e07a5f8dd66ab248c1e7b37b69fa9" remote="github" upstream="refs/heads/2.18"/>
+  <project name="qualcomm-linux/meta-ai" path="meta-ai" revision="60e38e2015f19058b467febd044f49bf70c4528f" remote="github" upstream="refs/heads/main"/>
+  <project name="meta-arm" path="meta-arm" revision="0979b80429099f1a42dc0026c8c466cee780bc74" remote="yocto" upstream="refs/heads/wrynose"/>
+  <project name="AudioReach/meta-audioreach" path="meta-audioreach" revision="e4ef44bb8c6a77b7d14a1160394b81d54baa1e85" remote="github" upstream="refs/heads/master"/>
+  <project name="meta-dpdk" path="meta-dpdk" revision="6a59b0cd21084e33feb53b4f2d1310e49e1d4a83" remote="yocto" upstream="refs/heads/master"/>
+  <project name="meta-lts-mixins" path="meta-lts-mixins" revision="8bfc4ae8cf7fc835a23d7a27830f866617d9808f" remote="yocto" upstream="refs/heads/wrynose/linux-firmware"/>
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="14282a02be9c74a1276a7cda7d6c89e054699a11" remote="github" upstream="refs/heads/wrynose"/>
+  <project name="qualcomm-linux/meta-qcom" path="meta-qcom" revision="ea0fdcc27decd59c3e9bc81dcacf9c5f9a65a062" remote="github" upstream="refs/heads/wrynose"/>
+  <project name="qualcomm-linux/meta-qcom-distro" path="meta-qcom-distro" revision="9b2bd8add61378f316b51d3dd848f2c2f6e80ae9" remote="github" upstream="refs/heads/wrynose"/>
+  <project name="meta-security" path="meta-security" revision="c0d1d6200e7a84c39fb940cb1f22aad4b0b3d808" remote="yocto" upstream="refs/heads/wrynose"/>
+  <project name="meta-selinux" path="meta-selinux" revision="1c3a699f363167571ab39fecb0fe6f56691a4e20" remote="yocto" upstream="refs/heads/wrynose"/>
+  <project name="uptane/meta-updater" path="meta-updater" revision="f0e1ccafaa877d2781ed953236981dac57439dc8" remote="github" upstream="refs/heads/wrynose"/>
+  <project name="meta-virtualization" path="meta-virtualization" revision="aab9c1a0dd6b48776c9f372a32c32486c560b9c9" remote="yocto" upstream="refs/heads/wrynose"/>
+  <project name="openembedded/openembedded-core" path="oe-core" revision="ef022bf82d79015802309d14c28b13373ebe53f5" remote="github" upstream="refs/heads/wrynose"/>
+  <project name="qualcomm-linux/meta-qcom-releases" path="meta-qcom-releases" revision="5cda957ea0d6702888e13967fc5579257349f074" remote="github" upstream="refs/heads/wrynose" >
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <remote name="github" fetch="https://github.com/"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/"/>
+</manifest>
