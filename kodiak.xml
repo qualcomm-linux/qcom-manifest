@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="common.xml" />
+  <remote name="qcl"   fetch="https://github.com/qualcomm-linux" />
+  <remote name="optee" fetch="https://github.com/OP-TEE" />
+  <remote name="tfa"   fetch="https://review.trustedfirmware.org/TF-A" />
+
+  <project path="build" remote="qcl" name="qcom-buildroot.git" revision="main">
+    <linkfile src="kodiak.mk" dest="build/Makefile" />
+  </project>
+
+  <remove-project                      name="linaro-swg/linux.git" />
+  <remove-project                      name="OP-TEE/optee_os.git" />
+
+  <project path="linux"                remote="qcl"   name="kernel-topics.git"      revision="9226b98151cf6fd0cc153e4680635f8b0723511c" upstream="tech/security/optee" clone-depth="10" sync-tags="false"/>
+  <project path="arm-trusted-firmware" remote="qcl"   name="trusted-firmware-a.git" revision="12d255322adb618d3a6fd50a45bebd489c09e005" upstream="qcom-next"/>
+  <project path="u-boot"               remote="qcl"   name="u-boot.git"             revision="3902cb4183e03ce6349b7c465123735ba6df34d9" upstream="qcom-next"/>
+  <project path="optee_os"             remote="optee" name="optee_os.git"           revision="9bcaec96ede2c8278137939d0dbad3dca887a502" upstream="master"/>
+</manifest>
